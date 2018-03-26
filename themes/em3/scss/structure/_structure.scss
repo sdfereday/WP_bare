@@ -4,14 +4,23 @@
 }
 
 .two-columns {
-    @include columns(2);
+    @include columns(1);
+    @include breakpoint(from-desktop) {
+       @include columns(2);
+    }
 }
 
 .three-columns {
-    @include columns(3);
+    @include columns(1);
+    @include breakpoint(from-desktop) {
+       @include columns(3);
+    }
 }
 
 // Ratio-based
 .two-one {
-    @include columns((2, 1));
+    @include columns(1);
+    @include breakpoint(from-desktop) {
+        @include columns((2, 1));
+     }
 }
