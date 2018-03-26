@@ -19,5 +19,18 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
-@import 'neutron';
-@import 'default';
+// - (required) Neutron library
+@import 'lib/neutron-library/neutron';
+@import 'lib/simple-reset';
+
+// - (required) Site setup and structure
+@import 'setup/variables';
+@import 'structure/structure';
+@import 'structure/navigation';
+@import 'structure/font';
+
+// - (custom) Site effects
+@import 'effects/links/brackets';
+
+// - (custom) Site theme
+@import 'theme/theme-content';

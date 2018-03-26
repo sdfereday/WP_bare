@@ -1,0 +1,29 @@
+// - Links general
+a {
+    @extend .cl-effect-1;
+    color: $embers;
+}
+
+// - Buttons general
+button,
+input[type='submit'] {
+    padding: $basePadding;
+    border: 3px solid $black;
+    color: $black;
+    font-size: $siteButton;
+    background: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: bold;
+    &:hover {
+        color: $gray;
+    }
+}
+
+// - Input boxes general
+input[type='text'],
+input[type='search'] {
+    padding: $basePadding;
+    font-size: $siteButton;
+    border: 3px solid $black;
+}

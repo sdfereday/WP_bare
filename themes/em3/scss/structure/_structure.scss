@@ -1,0 +1,11 @@
+.one-column {
+    @include columns(1);
+}
+
+.two-columns {
+    @include columns(2);
+}
+
+.three-columns {
+    @include columns(3);
+}

@@ -1,0 +1,10 @@
+nav a {
+	position: relative;
+	display: inline-block;
+	outline: none;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
