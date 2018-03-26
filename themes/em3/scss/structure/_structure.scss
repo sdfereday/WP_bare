@@ -1,3 +1,4 @@
+// Grid-based
 .one-column {
     @include columns(1);
 }
@@ -8,4 +9,9 @@
 
 .three-columns {
     @include columns(3);
+}
+
+// Ratio-based
+.two-one {
+    @include columns((2, 1));
 }

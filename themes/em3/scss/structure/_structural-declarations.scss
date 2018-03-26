@@ -1,0 +1,7 @@
+.content-area {
+    @extend .one-column;
+}
+
+.content-area.with-sidebar {
+    @extend .two-one;
+}
