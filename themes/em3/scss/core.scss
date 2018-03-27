@@ -27,10 +27,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 // - (required) Site setup and structure
 @import 'setup/variables';
+@import 'setup/font-sizes';
 @import 'structure/structure';
 @import 'structure/structural-declarations';
 @import 'structure/navigation';
-@import 'structure/font';
+@import 'structure/element-spacing';
 
 // - (custom) Site effects
 @import 'effects/links/brackets';

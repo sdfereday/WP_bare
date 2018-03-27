@@ -1,0 +1,71 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+}
+
+h1 {
+    line-height: 4.5rem;
+    margin-top: 3rem;
+}
+
+h2 {
+    line-height: 3rem;
+    margin-top: 3rem;
+}
+
+p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+ul li,
+ol li {
+    line-height: 1.5rem;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+blockquote {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    padding: 0;
+    line-height: 33px;
+}
+
+code {
+    vertical-align: bottom;
+}
+
+.hug {
+    margin-top: 0;
+}
