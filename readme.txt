@@ -1,0 +1,5 @@
+- Always edit EM3 in this project, never outside.
+- Always make sure correct release protocols are kept in mind.
+- Always make this generic, no specific client themes.
+- The child theme is there as an example only, set other sites up with their own.
+- Ensure to copy across em3 to sites, never the other way around.
