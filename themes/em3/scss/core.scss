@@ -19,6 +19,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
+// - Warning! This is an auto-generated CSS file, do not edit this directly.
 // - (recommended) Reset various html elements
 @import 'lib/simple-reset';
 
@@ -27,14 +28,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 // - (required) Site setup and structure
 @import 'setup/variables';
-@import 'setup/font-sizes';
 @import 'structure/structure';
 @import 'structure/structural-declarations';
 @import 'structure/navigation';
-@import 'structure/element-spacing';
-
-// - (custom) Site effects
-@import 'effects/links/brackets';
-
-// - (custom) Site theme
-@import 'theme/theme-content';
