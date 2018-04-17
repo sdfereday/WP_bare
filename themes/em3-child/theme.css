@@ -1,1 +1,102 @@
-/* This is an auto-generated system style file, it should be left alone. */
+/* -- Text Colours -- */
+.white {
+    color: #EEE;
+}
+
+.black {
+    color: #111;
+}
+
+.gray {
+    color: #777;
+}
+
+.ink {
+    color: #062F4F;
+}
+
+.posy {
+    color: #813772;
+}
+
+.embers {
+    color: #B82601;
+}
+
+/* -- Background Colours -- */
+.bg-white {
+    background-color: #EEE;
+}
+
+.bg-black {
+    background-color: #111;
+}
+
+.bg-gray {
+    background-color: #777;
+}
+
+.bg-ink {
+    background-color: #062F4F;
+}
+
+.bg-posy {
+    background-color: #813772;
+}
+
+.bg-embers {
+    background-color: #B82601;
+}
+
+/* -- Font Sizes / Site Fonts -- */
+html {
+    font-family: serif;
+    font-size: 137.5%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.baseSize {
+    font-size: 137.5%;
+}
+
+.button {
+    font-size: 1em;
+}
+
+.h1, h1 {
+    font-size: 4.242rem;
+}
+
+.h2, h2 {
+    font-size: 2.828rem;
+}
+
+.h3, h3 {
+    font-size: 1.414rem;
+}
+
+.h4, h4 {
+    font-size: 0.707rem;
+}
+
+.h5, h5 {
+    font-size: 0.4713333333333333rem;
+}
+
+.h6, h6 {
+    font-size: 0.3535rem;
+}
+
+.lead {
+    font-size: 1.414rem;
+}
+
+.paragraph, p {
+    font-size: 1.1rem;
+}
+
+ul li,
+ol li,
+dl dd {
+    font-size: 1em;
+}
