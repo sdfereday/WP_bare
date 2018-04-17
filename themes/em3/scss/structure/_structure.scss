@@ -6,15 +6,26 @@
 .two-columns {
     @include columns(1);
     @include breakpoint(from-desktop) {
-       @include columns(2);
+        @include columns(2);
     }
 }
 
 .three-columns {
     @include columns(1);
     @include breakpoint(from-desktop) {
-       @include columns(3);
+        @include columns(3);
     }
+}
+
+.four-columns {
+    @include columns(1);
+    @include breakpoint(from-desktop) {
+        @include columns(4);
+    }
+}
+
+.full-width {
+    @include columns(1, $container-width: 100%);
 }
 
 // Ratio-based
@@ -22,5 +33,5 @@
     @include columns(1);
     @include breakpoint(from-desktop) {
         @include columns((2, 1));
-     }
+    }
 }
